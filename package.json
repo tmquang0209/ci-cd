@@ -5,6 +5,7 @@
     "repository": "https://github.com/tmquang0209/ci-cd.git",
     "author": "Trần Minh Quang <tmquang0209@gmail.com>",
     "license": "MIT",
+    "type": "module",
     "scripts": {
         "start": "nodemon index.js",
         "lint:check": "eslint .",
