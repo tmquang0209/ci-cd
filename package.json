@@ -1,0 +1,19 @@
+{
+    "name": "ci-cd",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/tmquang0209/ci-cd.git",
+    "author": "Trần Minh Quang <tmquang0209@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon index.js",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.11.1",
+        "eslint": "^9.11.1",
+        "globals": "^15.10.0",
+        "nodemon": "^3.1.7"
+    }
+}
